@@ -1,13 +1,11 @@
-@Search-Cars
-Feature: Acceptance testing to validate Search Cars Page is working.
+@Login-Yes
+Feature: Acceptance testing to validate Login Page is working.
   In order to validate that 
-  the Search Cars page is working
+  the Login page is working
   Doing the Acceptance Testing
 
-  @Search-Cars-Positive
-  Scenario: Validate Search Cars Page
-    Given I am on the Home Page "https://www.carsguide.com.au" of CarsGuide Website
-    When I move to Car For Sale Menu
-      | Menu          |
-      | Cars For Sale |
-    And click on "Search Cars" link
+  @Login-Yes-Positive
+  Scenario: Validate Login Yes Page
+    Given I am having the valid url of  "https://gmail.com" of CarsGuide Website
+    When I hit the url
+    Then I got redirected to Yes Login Page
