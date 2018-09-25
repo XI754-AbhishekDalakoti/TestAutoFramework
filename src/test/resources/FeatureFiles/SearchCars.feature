@@ -6,6 +6,6 @@ Feature: Acceptance testing to validate Login Page is working.
 
   @Login-Yes-Positive
   Scenario: Validate Login Yes Page
-    Given I am having the valid url of  "https://gmail.com" of CarsGuide Website
+    Given I am having the valid url of  "https://gmail.com" of gmail Website
     When I hit the url
     Then I got redirected to Yes Login Page
